@@ -22,6 +22,10 @@ Rows: 10000 initially
 
 Roles-Tasks:
 
+Rayan:
+
+Created a function to remove duplicate rows from the data.
+
 Sam: Reverse engineering price per unit from the item name:
 
 The function takes either a dataframe or csv as an input and returns as a dataframe.
@@ -53,6 +57,7 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
 
 
