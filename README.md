@@ -14,7 +14,11 @@ python -m pip install -r requirements.txt
 
 Description of the dataset:
 
-Our dataset contains data relating to transactions from a cafe and contains the fields: Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	Location	Transaction Date
+Our dataset contains data relating to transactions from a cafe.
+
+Fields: Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	Location	Transaction Date
+
+Rows: ~9700
 
 
 
@@ -53,6 +57,7 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Benyamin: README
+
 
 
 
