@@ -47,9 +47,8 @@ Added set up information to the read me. For encoding, encoded all categorical c
 
 Clive: Drop rows based on how many values are missing compared to total data e.g. 5% or below then drop
 
-Outline of techniques:
-
-Reasoning behind those techniques:
+Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
