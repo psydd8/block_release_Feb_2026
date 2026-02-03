@@ -20,8 +20,6 @@ Fields: Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	L
 
 Rows: 10000 initially
 
-
-
 Roles-Tasks:
 
 Sam: Reverse engineering price per unit from the item:
@@ -30,13 +28,11 @@ Outline of techniques:
 
 Reasoning behind those techniques:
 
-
 Domingo: Reverse engineering item from price per unit:
 
 Outline of techniques:
 
 Reasoning behind those techniques:
-
 
 Dan, Rapha, Ed: Visualisations of the price per unit and cost:
 
@@ -45,6 +41,8 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Ollie: README & encoding payment method and location:
+
+Added set up information to the read me. For encoding, encoded all categorical columns into numeric to increase performace, reduce storage requirements and enable further analysis/modelling.
 
 Outline of techniques:
 
@@ -57,12 +55,3 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Benyamin: README
-
-
-
-
-
-
-
-
-
