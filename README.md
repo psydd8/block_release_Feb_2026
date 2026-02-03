@@ -60,11 +60,11 @@ Outline of techniques:
 
 Reasoning behind those techniques:
 
-Dan, Rapha, Ed: Outlier editing, duplicate removal and visualisations.
+Dan, Rapha, Ed: Outlier editing and visualisations.
 
-Outline of techniques: Uses IQR to replace outliers with more reasonable variables. Removes any duplicate entries. Also added a visualisation for each item. 
+Outline of techniques: Uses IQR to replace outliers with more reasonable variables. Also added a visualisation for each item. 
 
-Reasoning behind those techniques: Outliers introduce unneccessary skew to data, so replacing them seems helpful. Duplicates should be removed as they add unneccessary noise.
+Reasoning behind those techniques: Outliers introduce unneccessary skew to data, so replacing them seems helpful.
 
 Ollie: README & encoding payment method and location:
 
@@ -76,6 +76,7 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
 
 
