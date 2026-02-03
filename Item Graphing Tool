@@ -1,0 +1,26 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+def plot_item_sales_per_month(df, item):
+    # df - dataframe
+    # item - (str) food item e.g. 'coffee'
+
+    df = df.copy()
+    df['date_sold'] = pd.to_datetime(df['date_sold'])
+
+    df_item = df[df['item'] == item]
+
+    df_item['month'] = df_item['transaction_date'].dt.to_period('M')
+
+    monthly_counts = df_item.groupby('month').size()
+
+    monthly_counts.plot(kind='bar', color = 'seagreen')
+    plt.title(f"Monthly Sales for {item}")
+    plt.xlabel("Month")
+    plt.ylabel("Number of Items Sold")
+    plt.tight_layout()
+    plt.show()
+
+
+data = pd.read_csv('Cafe_sales.csv')
+plot_item_sales_per_month(data, "Coffee")
