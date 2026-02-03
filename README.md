@@ -18,7 +18,7 @@ Our dataset contains data relating to transactions from a cafe.
 
 Fields: Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	Location	Transaction Date
 
-Rows: ~9700
+Rows: 10000 initially
 
 
 
@@ -57,6 +57,7 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Benyamin: README
+
 
 
 
