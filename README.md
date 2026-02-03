@@ -27,6 +27,8 @@ Sam: Reverse engineering price per unit from the item name:
 The function takes either a dataframe or csv as an input and returns as a dataframe.
 Linear interpolation was used as a relationship was assumed between two columns.
 
+A "main" python file was also created to let us run all the different functions within one file.
+
 The reasonign was because the price per unit was a constant based on the value in the item column.
 
 Domingo: Reverse engineering item from price per unit:
@@ -51,6 +53,7 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
 
 
