@@ -12,6 +12,21 @@ Install
 
 python -m pip install -r requirements.txt
 
+Inisghts:
+
+Making sure all the the functions can flow one after another.
+
+Inisghts:
+
+Making sure all the the functions can flow one after another.
+
+Difficulties: 
+
+Using Git for the first time, it was unfamiliar and made us more cautious when interacting with the repositories.
+
+Getting used to pandas at the start - much easier to use than the read csv import though.
+
+
 Description of the dataset:
 
 Our dataset contains data relating to transactions from a cafe.
@@ -41,11 +56,11 @@ Outline of techniques:
 
 Reasoning behind those techniques:
 
-Dan, Rapha, Ed: Visualisations of the price per unit and cost:
+Dan, Rapha, Ed: Outlier editing, duplicate removal and visualisations.
 
-Outline of techniques:
+Outline of techniques: Uses IQR to replace outliers with more reasonable variables. Removes any duplicate entries. Also added a visualisation for each item. 
 
-Reasoning behind those techniques:
+Reasoning behind those techniques: Outliers introduce unneccessary skew to data, so replacing them seems helpful. Duplicates should be removed as they add unneccessary noise.
 
 Ollie: README & encoding payment method and location:
 
@@ -57,6 +72,10 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
+
+
+
 
 
 
