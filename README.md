@@ -16,10 +16,15 @@ Inisghts:
 
 Making sure all the the functions can flow one after another.
 
+Inisghts:
+
+Making sure all the the functions can flow one after another.
+
 Difficulties: 
 
 Using Git for the first time, it was unfamiliar and made us more cautious when interacting with the repositories.
 
+Getting used to pandas at the start - much easier to use than the read csv import though.
 
 
 Description of the dataset:
@@ -67,6 +72,7 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
 
 
