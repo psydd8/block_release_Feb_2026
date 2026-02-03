@@ -44,9 +44,6 @@ Ollie: README & encoding payment method and location:
 
 Added set up information to the read me. For encoding, encoded all categorical columns into numeric to increase performace, reduce storage requirements and enable further analysis/modelling.
 
-Outline of techniques:
-
-Reasoning behind those techniques:
 
 Clive: Drop rows based on how many values are missing compared to total data e.g. 5% or below then drop
 
@@ -55,3 +52,4 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Benyamin: README
+
