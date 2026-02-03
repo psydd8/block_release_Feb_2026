@@ -20,7 +20,10 @@ Domingo: Reverse engineering item from price per unit
 
 Dan, Rapha, Ed: Visualisations of the price per unit and cost
 
-Ollie: Read-Me & encoding payment method and location
+Ollie: README & encoding payment method and location
 
 Clive: Drop rows based on how many values are missing compared to total data e.g. 5% or below then drop
+
+Benyamin: README
+
 
