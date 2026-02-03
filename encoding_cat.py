@@ -1,7 +1,15 @@
 import pandas as pd
 
-#encodes all categoric columns and returns new dataframe
 def enc_cat(dataf):
+    """ 
+    Encodes all categoric columns in Cafe_sales csv
+    
+    Arg:
+        dataf : the cafe_sales dataset as a dataframe
+
+    Returns:
+        new dataframe with categoric columns encoded
+    """
     location_map = {"Takeaway": 1, "In-store": 2}
     payment_map = {"Credit Card": 1, "Cash": 2, "Digital Wallet":3}
     item_map = {"Coffee": 1, "Cake": 2, "Cookie": 3, "Salad": 4, "Smoothie": 5, "Sandwich": 6, "Juice": 7, "Tea": 8}
