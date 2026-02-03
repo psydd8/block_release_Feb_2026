@@ -12,6 +12,16 @@ Install
 
 python -m pip install -r requirements.txt
 
+Inisghts:
+
+Making sure all the the functions can flow one after another.
+
+Difficulties: 
+
+Using Git for the first time, it was unfamiliar and made us more cautious when interacting with the repositories.
+
+
+
 Description of the dataset:
 
 Our dataset contains data relating to transactions from a cafe.
@@ -57,6 +67,8 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
+
 
 
 
