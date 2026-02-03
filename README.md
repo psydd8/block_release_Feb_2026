@@ -12,6 +12,10 @@ Install
 
 python -m pip install -r requirements.txt
 
+Conflicts:
+
+Multiple changes at the same time to the Read Me - this was resolved by using cancelling one change and then copying over the changes.
+
 Inisghts:
 
 Making sure all the the functions can flow one after another.
@@ -72,6 +76,7 @@ Clive: Drop rows based on how many values are missing compared to total data e.g
 Created a function that calculates how many rows for a certain column are blank and then depending on a tolerance level will either drop or keep those rows.
 
 Benyamin: README
+
 
 
 
