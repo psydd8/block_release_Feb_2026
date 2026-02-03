@@ -12,6 +12,12 @@ Install
 
 python -m pip install -r requirements.txt
 
+Description of the dataset:
+
+Our dataset contains data relating to transactions from a cafe and contains the fields: Transaction ID	Item	Quantity	Price Per Unit	Total Spent	Payment Method	Location	Transaction Date
+
+
+
 Roles-Tasks:
 
 Sam: Reverse engineering price per unit from the item:
@@ -47,6 +53,7 @@ Outline of techniques:
 Reasoning behind those techniques:
 
 Benyamin: README
+
 
 
 
